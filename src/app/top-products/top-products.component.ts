@@ -13,7 +13,8 @@ export class TopProductsComponent implements OnInit {
     chart: {
       type: 'column',
       height: 400,
-      width: 1200
+      width: 1200,
+      backgroundColor: '#f2f2f2'
     },
     title: {
       align: 'left',

@@ -5,26 +5,15 @@
   .widget {
     width: 23.5%;
     height: 175px;
-    background-color: #fff;
-    color: rgb(255, 255, 255);
+    background-color: #071A26;
+    color: #f2f2f2;
     border-radius: 5px;
     margin: 10px  ;
-    box-shadow: 5px 5px 5px #939393;
+    box-shadow: 5px 5px 5px #144E73;
     display: flex;
     align-items: center;
     padding: 20px;
-    &.green {
-      background-color: rgb(4, 67, 66);
-    }
-    &.yellow {
-      background-color: rgb(237, 158, 32);
-    }
-    &.red {
-      background-color: rgb(126, 5, 5);
-    }
-    &.blue {
-      background-color: rgb(105, 32, 251);
-    }
+    
     @media only screen and (max-width: 1600px) {
       width: 300px;
     }

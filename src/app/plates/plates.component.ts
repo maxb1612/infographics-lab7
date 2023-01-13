@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faLocation, faShop, faBoxes, faMoneyBillTrendUp } from '@fortawesome/free-solid-svg-icons';
+import { faBagShopping, faCheckCircle, faBoxes, faMoneyBillTrendUp } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-plates',
@@ -8,8 +8,8 @@ import { faLocation, faShop, faBoxes, faMoneyBillTrendUp } from '@fortawesome/fr
 })
 export class PlatesComponent implements OnInit {
 
-  faLocation=faLocation;
-  faShop=faShop;
+  faBag=faBagShopping;
+  faCheck=faCheckCircle;
   faBoxes=faBoxes;
   faMoneyBillTrendUp=faMoneyBillTrendUp;
 
